@@ -1,6 +1,6 @@
 import random
 
-entry = raw_input("Welcome to rock, paper, scissors. Please enter your value: ")
+entry = input("Welcome to rock, paper, scissors. Please enter your value: ")
 games = ['rock','paper','scissors']
 choice = random.choice(games)
 print ("My choice is " + choice)
